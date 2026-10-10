@@ -1,0 +1,18 @@
+{
+  "decisions": [
+    "Use a shared interview panel for overlapping candidates"
+  ],
+  "action_items": [
+    {"task": "Coordinate with the payments team on overlapping candidates", "owner": null, "due": null},
+    {"task": "Send the panel schedule to payments", "owner": "Sam Okafor", "due": "2026-10-20"},
+    {"task": "Ask finance about budget for a second offer", "owner": "Luis Ortega", "due": "2026-10-20"},
+    {"task": "Refresh the take-home exercise", "owner": null, "due": null},
+    {"task": "Own the debrief template", "owner": "Grace Liu", "due": null}
+  ],
+  "open_questions": [
+    "Do we have budget for a second offer this quarter?"
+  ],
+  "follow_ups": [
+    {"title": "Hiring sync", "date": "2026-10-15", "time": "16:30"}
+  ]
+}

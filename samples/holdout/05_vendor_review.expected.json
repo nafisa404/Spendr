@@ -1,0 +1,18 @@
+{
+  "decisions": [
+    "Renew the analytics vendor contract for one year, not three"
+  ],
+  "action_items": [
+    {"task": "Negotiate the one-year price, target 10% below current", "owner": "Dana Wright", "due": "2026-10-30"},
+    {"task": "Run the data export test", "owner": "Aisha Khan", "due": null},
+    {"task": "Brief the marketing team on the dashboard changes", "owner": "Marco Silva", "due": "2026-11-04"},
+    {"task": "Legal review of the DPA amendment", "owner": null, "due": null}
+  ],
+  "open_questions": [
+    "Is the SSO add-on included in the base price?",
+    "Does the CSV export cover event-level data?"
+  ],
+  "follow_ups": [
+    {"title": "Vendor review", "date": "2026-11-18", "time": "11:00"}
+  ]
+}

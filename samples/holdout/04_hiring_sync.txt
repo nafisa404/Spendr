@@ -1,0 +1,14 @@
+Meeting: Platform team hiring sync
+Date: 2026-10-13
+Attendees: Luis Ortega, Sam Okafor, Grace Liu
+
+Luis: Pipeline update - we have 4 candidates at onsite stage for the senior SRE role.
+Sam: Two of them overlap with the payments team's req, so we should coordinate with them.
+Grace: Agreed, let's go with a shared interview panel for overlapping candidates.
+Luis: Action item for Sam: send the panel schedule to payments by Tuesday EOD.
+Sam: Sure. Also, do we have budget for a second offer this quarter?
+Luis: Not sure, I need to ask finance. I'll get back to you by the 20th.
+Grace: The take-home exercise is outdated. Can somebody refresh it before the next round?
+Luis: Grace, could you own the debrief template in two weeks?
+Grace: Yes.
+Luis: We'll sync again Thursday 4:30pm.
