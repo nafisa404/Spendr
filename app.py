@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')  # render to files only; the default GUI backend crashes in Flask's worker threads
 import matplotlib.pyplot as plt
 import seaborn as sns
 from flask import Flask, render_template
