@@ -19,7 +19,7 @@ LABELS = {
     "follow-up": "follow_up", "follow up": "follow_up",
 }
 _LABEL = re.compile(r"^(" + "|".join(sorted(LABELS, key=len, reverse=True)) + r")\s*:\s*", re.IGNORECASE)
-_BULLET = re.compile(r"^\s*(?:[-*•]\s*)?(\[[ xX]?\]\s*)?")
+_BULLET = re.compile(r"^\s*(?:(?:[-*•]|\d{1,2}[.)])\s*)?(\[[ xX]?\]\s*)?")
 _SENTENCE = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'])")
 
 DECISION_CUE = re.compile(
@@ -45,7 +45,7 @@ def _sentences(text: str) -> list[str]:
 def _strip_phrase(text: str, phrase: str | None) -> str:
     if not phrase:
         return text
-    pre = r"(?:[\s,;]*[-–]?\s*(?:due|by|before|on|until|at|for)?\s*)"
+    pre = r"(?:[\s,;.]*[-–]?\s*(?:due|by|before|on|until|at|for)?:?\s*)"
     return re.sub(pre + re.escape(phrase), "", text, count=1, flags=re.I)
 
 
@@ -132,7 +132,8 @@ def extract_rules(text: str, today: date | None = None) -> Extraction:
                 speaker, line = ctx.owner(m.group(1)), m.group(2)
 
         prev = None
-        for s in _sentences(line):
+        # a line in an action list is one item, even with several sentences ("... Due: Oct 30")
+        for s in ([line] if section == "action" or checkbox else _sentences(line)):
             kind, explicit = None, False
             if m := _LABEL.match(s):
                 kind, explicit, s = LABELS[m.group(1).lower()], True, s[m.end():]

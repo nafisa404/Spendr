@@ -49,6 +49,14 @@ def test_sections_and_labels():
     assert [q.text for q in ex.open_questions] == ["who pays?"]
 
 
+def test_numbered_action_list_is_one_item_per_line():
+    ex = extract_rules(HEAD + "Next steps\n1. Tom - negotiate the price. Due: Oct 30\n2) Legal review of the DPA\n")
+    assert [(a.task, a.owner, a.due) for a in ex.action_items] == [
+        ("Negotiate the price", "Tom Becker", date(2026, 10, 30)),
+        ("Legal review of the DPA", None, None),
+    ]
+
+
 def test_follow_up_meeting():
     [f] = extract_rules(HEAD + "Tom: Let's reconvene next Monday at 10am to review.").follow_ups
     assert (f.title, f.date, f.time) == ("Reconvene to review", date(2026, 10, 12), time(10, 0))
