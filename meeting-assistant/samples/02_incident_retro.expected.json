@@ -1,0 +1,22 @@
+{
+  "decisions": [
+    "Config changes to the payments service require a second reviewer",
+    "Keep the 30s timeout"
+  ],
+  "action_items": [
+    {"task": "Add alerting on connection pool saturation", "owner": "Luis Ortega", "due": "2026-10-14"},
+    {"task": "Update the runbook with the rollback steps", "owner": "Grace Liu", "due": "2026-10-09"},
+    {"task": "Schedule a load test against staging", "owner": "Dana Wright", "due": "2026-10-30"},
+    {"task": "Add a canary stage to the payments deploy pipeline", "owner": null, "due": null},
+    {"task": "Write the customer-facing incident summary", "owner": "Sam Okafor", "due": null},
+    {"task": "Check with legal whether to notify the card networks", "owner": "Dana Wright", "due": null},
+    {"task": "Look at why the dashboard didn't page anyone", "owner": null, "due": null}
+  ],
+  "open_questions": [
+    "Do we need to notify the card networks?",
+    "Should the pool size be autoscaled or fixed?"
+  ],
+  "follow_ups": [
+    {"title": "Retro review", "date": "2026-10-21", "time": "14:00"}
+  ]
+}

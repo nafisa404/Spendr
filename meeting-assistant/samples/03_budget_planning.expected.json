@@ -1,0 +1,20 @@
+{
+  "decisions": [
+    "Shift 15% of the paid search budget to partner webinars in Q4",
+    "No new channels until the attribution model is fixed"
+  ],
+  "action_items": [
+    {"task": "Chase finance for events budget approval", "owner": "Grace Liu", "due": "2026-10-16"},
+    {"task": "Draft the webinar calendar for November", "owner": "Priya Raman", "due": "2026-10-23"},
+    {"task": "Pull the attribution report for the board deck", "owner": "Marco Silva", "due": "2026-10-15"},
+    {"task": "Revisit the agency contract", "owner": null, "due": null},
+    {"task": "Confirm webinar platform licence count", "owner": null, "due": null},
+    {"task": "Share the events shortlist with the team", "owner": "Grace Liu", "due": null}
+  ],
+  "open_questions": [
+    "What does fixed mean for the attribution model, and who signs off?"
+  ],
+  "follow_ups": [
+    {"title": "Finalize the Q4 plan", "date": "2026-10-22", "time": "15:00"}
+  ]
+}

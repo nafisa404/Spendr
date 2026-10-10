@@ -1,0 +1,16 @@
+Meeting: Analytics vendor review
+Date: 2026-10-14
+Attendees: Aisha Khan, Dana Wright, Marco Silva
+
+Discussed renewal of the analytics vendor contract (expires Dec 31).
+- Security review came back with two findings; both are low severity.
+- Outcome: renew for one year, not three, so we can re-evaluate after the warehouse migration.
+
+Next steps
+1. Dana - negotiate the one-year price, target 10% below current. Due: Oct 30
+2. Aisha owns the data export test (need confirmation the CSV export covers event-level data)
+3. Marco: brief the marketing team on the dashboard changes, Nov 4
+4. Legal review of the DPA amendment
+
+Still unclear whether the SSO add-on is included in the base price.
+Next review on November 18 at 11am.
