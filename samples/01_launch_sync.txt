@@ -1,0 +1,17 @@
+Meeting: Mobile app v3 launch sync
+Date: 2026-10-05
+Attendees: Priya Raman (PM), Tom Becker (Eng), Aisha Khan (Design), Marco Silva (Marketing)
+
+Priya: Quick status. Beta feedback is mostly positive but onboarding drop-off is still at 38%.
+Aisha: The new onboarding flow is ready in Figma. I'll share the final designs with engineering by Wednesday.
+Tom: Once I have them, the build is about a week. Realistically the 20th is our code freeze.
+Priya: OK. Decision: we launch on November 3, not October 27. That gives QA a full week after freeze.
+Marco: That works for marketing. I'll move the press embargo and update the launch calendar by Friday.
+Priya: Tom, can you confirm with the platform team that push notifications are ready before code freeze?
+Tom: Yes, will do.
+Marco: Are we still doing the in-app promo banner? Nobody owns that right now.
+Priya: Good question. Let's leave it open for now.
+Tom: Also the crash rate on older Android devices is creeping up. Someone should look at this.
+Priya: Agreed. We also agreed to drop the tablet layout from v3; it moves to v3.1.
+Aisha: I'll write up the tablet notes for the backlog at some point.
+Priya: Let's reconvene next Monday at 10am to check onboarding progress.

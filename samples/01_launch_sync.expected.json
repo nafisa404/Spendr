@@ -1,0 +1,19 @@
+{
+  "decisions": [
+    "Launch on November 3 instead of October 27",
+    "Drop the tablet layout from v3; it moves to v3.1"
+  ],
+  "action_items": [
+    {"task": "Share the final onboarding designs with engineering", "owner": "Aisha Khan", "due": "2026-10-07"},
+    {"task": "Move the press embargo and update the launch calendar", "owner": "Marco Silva", "due": "2026-10-09"},
+    {"task": "Confirm with the platform team that push notifications are ready", "owner": "Tom Becker", "due": null},
+    {"task": "Look at the crash rate on older Android devices", "owner": null, "due": null},
+    {"task": "Write up the tablet notes for the backlog", "owner": "Aisha Khan", "due": null}
+  ],
+  "open_questions": [
+    "Are we still doing the in-app promo banner, and who owns it?"
+  ],
+  "follow_ups": [
+    {"title": "Reconvene to check onboarding progress", "date": "2026-10-12", "time": "10:00"}
+  ]
+}

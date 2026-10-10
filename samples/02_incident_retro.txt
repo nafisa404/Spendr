@@ -1,0 +1,26 @@
+Meeting: Payments API incident retro
+Date: 2026-10-07
+Attendees: Dana Wright, Luis Ortega, Grace Liu, Sam Okafor
+
+Summary
+- Oct 2 outage, 47 minutes, checkout errors for ~12% of users.
+- Root cause: connection pool exhaustion after a config change in deploy 4812.
+
+Decisions
+- Config changes to the payments service now require a second reviewer.
+- We will keep the 30s timeout; reverting it is not worth the risk.
+
+Action items
+- [ ] Luis: add alerting on connection pool saturation - due Oct 14
+- [ ] Grace to update the runbook with the rollback steps by end of week
+- [ ] Dana will schedule a load test against staging before 10/30
+- [ ] Add a canary stage to the payments deploy pipeline (owner TBD)
+- [ ] Sam: write the customer-facing incident summary ASAP
+
+Open questions
+- Do we need to notify the card networks? Dana to check with legal.
+- Should the pool size be autoscaled or fixed?
+
+Notes
+- Someone should look at why the dashboard didn't page anyone.
+- Next retro review: Oct 21, 2pm.
