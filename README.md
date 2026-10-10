@@ -55,6 +55,17 @@ Daily Household Transactions.csv
 static/                 generated chart images (created at runtime, not committed)
 ```
 
+## Other projects in this repo
+
+Each folder is self-contained, with its own README, `requirements.txt` and tests.
+
+| Folder | What it does |
+|---|---|
+| [`initiative-tracker/`](initiative-tracker/) | Streamlit app that computes health, rollups and risk flags for strategic initiatives from a CSV, and drafts a weekly status report for review before export. |
+| [`meeting-assistant/`](meeting-assistant/) | Streamlit app that extracts decisions, action items, open questions and follow-ups from meeting notes. Every item is reviewed before the email, status update and `.ics` export. Includes an evaluation against hand-labelled samples. |
+
+Run either one from its folder: `pip install -r requirements.txt`, then `streamlit run app.py`.
+
 ## Notes
 
 - The charts are redrawn on every page load, so the first load takes a few seconds.
