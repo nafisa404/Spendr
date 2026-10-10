@@ -15,7 +15,8 @@ def load_and_preprocess_data():
     df = pd.read_csv(file_path)
     
     # Convert Date column to datetime
-    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+    # Dates are day-first, some with a time and some without ("20/09/2018 12:04:08", "19/09/2018")
+    df['Date'] = pd.to_datetime(df['Date'], format='mixed', dayfirst=True, errors='coerce')
     df = df.dropna(subset=['Date'])
 
     # Extract additional date-based features
