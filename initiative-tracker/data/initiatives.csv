@@ -1,0 +1,41 @@
+initiative,owner,workstream,start,due,status,percent_complete,risk_note,last_update
+Self-service returns portal,Priya Raman,Customer Experience,2026-09-13,2027-05-05,At risk,0,Scope grew after discovery,2026-10-06
+Unified support inbox,Priya Raman,Customer Experience,2026-04-21,2026-09-21,Done,100,,2026-09-13
+NPS survey redesign,Priya Raman,Customer Experience,2026-07-22,2027-01-12,On track,55,,2026-10-04
+Chatbot tier-1 deflection,Tom Becker,Customer Experience,2026-07-25,2026-12-31,On track,25,,2026-10-06
+Onboarding email journey,Tom Becker,Customer Experience,2026-06-24,2026-10-18,At risk,60,Scope grew after discovery,2026-09-30
+Help center rewrite,Priya Raman,Customer Experience,2026-06-14,2026-08-22,Done,100,,2026-08-23
+Customer health scoring,Tom Becker,Customer Experience,2026-09-08,2027-04-27,Not started,0,,2026-10-07
+Warehouse migration to cloud,Luis Ortega,Data Platform,2026-08-30,2027-03-04,At risk,0,Data quality issues upstream,2026-09-09
+Event tracking standard,Aisha Khan,Data Platform,2026-03-23,2026-05-24,Done,100,,2026-05-21
+Data quality monitors,Luis Ortega,Data Platform,2026-08-30,2026-12-12,On track,35,,2026-10-02
+Self-serve BI rollout,Luis Ortega,Data Platform,2026-04-10,2026-12-24,On track,70,,2026-09-30
+Customer 360 model,Aisha Khan,Data Platform,2026-04-01,2026-07-23,On track,80,,2026-09-09
+PII tagging in lake,Aisha Khan,Data Platform,2026-05-06,2026-12-23,At risk,45,Data quality issues upstream,2026-09-27
+Retire legacy ETL jobs,Aisha Khan,Data Platform,2026-03-28,2026-08-03,On track,80,,2026-10-04
+Vendor consolidation,Grace Liu,Operations,2026-07-01,2026-11-25,At risk,50,Data quality issues upstream,2026-09-09
+Procurement workflow automation,Grace Liu,Operations,2026-04-05,2026-09-24,Done,100,,2026-09-28
+Warehouse slotting optimisation,Grace Liu,Operations,2026-07-14,2026-10-02,Done,100,,2026-09-30
+Carrier rate renegotiation,Tom Becker,Operations,2026-04-23,2026-09-17,Done,100,,2026-09-11
+Inventory forecasting v2,Tom Becker,Operations,2026-08-27,2027-04-22,Blocked,0,Vendor contract not signed,2026-10-06
+Returns processing SLA,Tom Becker,Operations,2026-04-20,2026-06-20,Done,100,,2026-06-24
+Pricing page experiment,Priya Raman,Growth,2026-05-01,2026-06-17,On track,80,,2026-08-25
+Referral program relaunch,Priya Raman,Growth,2026-04-08,2026-08-18,Done,100,,2026-08-21
+Partner marketplace listing,Marco Silva,Growth,2026-05-26,2026-07-10,On track,90,,2026-09-18
+SEO content hub,Marco Silva,Growth,2026-05-13,2026-07-24,On track,95,,2026-08-25
+Trial-to-paid nurture,Marco Silva,Growth,2026-08-11,2026-12-29,On track,50,,2026-09-18
+EMEA market entry,Marco Silva,Growth,2026-04-19,2026-08-24,Done,100,,2026-08-17
+Annual plan discount test,Priya Raman,Growth,2026-07-03,2026-10-17,Blocked,50,Waiting on legal sign-off,2026-09-09
+SOC 2 Type II audit,Dana Wright,Security & Compliance,2026-05-18,2027-01-26,Blocked,20,Vendor contract not signed,2026-09-18
+SSO for all internal apps,Dana Wright,Security & Compliance,2026-04-04,2026-09-17,On track,85,,2026-10-02
+Quarterly access review,Luis Ortega,Security & Compliance,2026-07-27,2027-01-26,On track,25,,2026-10-02
+Vendor risk assessments,Luis Ortega,Security & Compliance,2026-04-01,2026-10-29,On track,100,,2026-09-23
+Endpoint encryption rollout,Dana Wright,Security & Compliance,2026-07-18,2026-10-28,Blocked,65,Key engineer on leave,2026-09-09
+Incident response drill,Dana Wright,Security & Compliance,2026-04-22,2026-08-01,Done,100,,2026-07-23
+Manager training program,Grace Liu,People,2026-09-02,2026-10-25,On track,50,,2026-09-18
+Career ladder refresh,Grace Liu,People,2026-07-10,2027-02-11,On track,50,,2026-10-06
+HRIS replacement,Sam Okafor,People,2026-07-19,2027-03-21,On track,35,,2026-10-04
+Engagement survey action plan,Grace Liu,People,2026-08-26,2027-03-27,Not started,0,,2026-09-27
+Hiring funnel analytics,Sam Okafor,People,2026-05-23,2027-01-09,Blocked,25,Waiting on legal sign-off,2026-08-25
+Hybrid office policy,Grace Liu,People,2026-06-08,2027-01-25,On track,35,,2026-10-04
+Benefits renewal,Grace Liu,People,2026-08-02,2027-01-31,On track,40,,2026-10-06
